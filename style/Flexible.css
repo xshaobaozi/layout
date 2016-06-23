@@ -1,0 +1,72 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.head{
+	width: 10rem;
+	height: auto;
+}
+body{
+	background-color: #f32a4c;
+}
+.head img{
+	width: 10rem;
+}
+.goodlist{
+	padding:0rem 0.13rem;
+	  
+}
+.goodlist ul li{
+	height: 2.33rem;
+	background-color: #fffffd;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+.goodlist ul li .goodimg{
+	width: 2.346rem;
+	height: 2.346rem;
+	display: block;
+}
+.goodimg img{
+	width: 2.346rem;
+	height: 2.346rem;
+}
+.goodimg, .goodlist>ul>li>div{
+	float: left;
+}
+.goodlist>ul>li>div{
+	margin-left:0.208rem;
+	font-size: .32rem;
+	width: 7rem;
+}
+.goodlist>ul>li>div>p{
+	margin-top: .05rem;
+}
+.goodins{
+	color: #000000;
+}
+.pricelist span:nth-child(1){
+	background-color: #f32a4c;
+	color: #fffffd;
+	padding: 2px;
+}
+.pricelist span:nth-child(2){
+	color: #f32a4c;
+}
+.pricelist span:nth-child(3){
+	color: #f32a4c;
+}
+.goodprice{
+	color: #ff6a30;
+}
+.rob{
+	position: relative;
+	display: inline-block;
+	width: 1.8rem;
+	height: .6rem;
+	line-height: .5rem;
+	text-align: center;
+	left:4.2rem;
+	background-color:#f5294c;
+	color: #fffffd;
+}
